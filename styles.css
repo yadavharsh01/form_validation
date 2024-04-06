@@ -57,3 +57,16 @@ font-size: 50px;
     color: white;
     
 }
+
+.form-control .error{
+  color: red;
+  height: 10px;
+  margin: 10px;
+  font-size: 12px;
+}
+.form-control .success{
+  border-color: green;
+}
+.form-control .error{
+  border-color: red;
+}

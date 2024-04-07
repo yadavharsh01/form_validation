@@ -12,7 +12,7 @@
       <h2>Registration Form</h2>
       <div class="inner_container">
         <form action=" " class="form">
-          <div class="input_box">
+          <div class="form-control">
             <label for="username">Username</label>
             <input
               type="text"
@@ -20,17 +20,19 @@
               id="username"
               placeholder="Enter your Username"
             />
+            <span class="error"></span>
           </div>
-          <div class="input_box">
+          <div class="form-control">
             <label for="email">Email</label>
             <input
-              type="email"
+              type="email" 
               name="email"
               id="email"
               placeholder="Enter your email"
             />
+            <span class="error"></span>
           </div>
-          <div class="input_box">
+          <div class="form-control">
             <label for="password">Password</label>
             <input
               type="password"
@@ -38,8 +40,9 @@
               id="password"
               placeholder="Enter your password"
             />
+            <span class="error"></span>
           </div>
-          <div class="input_box">
+          <div class="form-control">
             <label for="confirm_password">Confirm Password</label>
             <input
               type="password"
@@ -47,8 +50,9 @@
               id="confirm_password"
               placeholder="Confirm your password"
             />
+            <span class="error"></span>
           </div>
-          <input type="submit" value="submit" id="btn" />
+          <input type="submit" value="Submit" id="btn" name="" />
         </form>
       </div>
     </div>

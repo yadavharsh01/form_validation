@@ -40,8 +40,8 @@ if (passwordValue === "") {
 
 if (cpasswordValue === "") {
   setError(cpassword, "please Confirm Password!!");
-} else if (cpasswordValue !=passwordValue) {
-  setError(cpassword, "Password not matched !!");
+} else if (cpasswordValue != passwordValue) {
+  setError(cpassword, "Password isn't matching !!");
 } else {
   setSuccess(cpassword);
 }
